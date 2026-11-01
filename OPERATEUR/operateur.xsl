@@ -21,11 +21,12 @@
                             <li>NUMERO : <xsl:value-of select="@num"/></li>
                             <li>TYPE : <xsl:value-of select="@type"/></li>
                             <li>DATE : <xsl:value-of select="@dateAb"/></li>
+                            <tr>
+                                <th>numero facture</th><th>date facture</th><th>montant</th>
+                            </tr>
                             <xsl:for-each select="facture">
                                 <table border="1" width="90%">
-                                    <tr>
-                                        <th>numero facture</th><th>date facture</th><th>montant</th>
-                                    </tr>
+                                    
                                     <tr>
                                         <td><xsl:value-of select="@numFact"/></td>
                                         <td><xsl:value-of select="@dateFact"/></td>
