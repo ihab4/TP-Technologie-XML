@@ -1,2 +1,3 @@
 #TP XML METEO
-<img src="arbre xml.png">
+##le fichier xml qui respecte un contrat ecrit avec DTD
+<img src="avec DTD/tableau.png">
