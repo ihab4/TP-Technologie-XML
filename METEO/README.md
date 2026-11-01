@@ -1,2 +1,2 @@
 #TP XML METEO
-<img src="arbre xml.jpg">
+<img src="arbre xml.png">
