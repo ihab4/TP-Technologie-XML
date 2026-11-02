@@ -8,11 +8,11 @@
         <html>
             <head>
                 <title>
-                    LISTES DES CLIENTS DE IAM
+                    LISTES DES CLIENTS
                 </title>
             </head>
             <body>
-               <h1>LISTES DES CLIETS DE IAM</h1>
+               <h1>LISTES DES CLIETS</h1>
                 <xsl:for-each select="operateur/client">
     
                         <li>CODE : <xsl:value-of select="@code"/></li>
