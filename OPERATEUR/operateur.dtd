@@ -10,7 +10,7 @@
 >
 <!ATTLIST abonnement
             num CDATA #REQUIRED
-            type CDATA #REQUIRED
+            type (GSM|FIX) 'GSM'
             dateAb CDATA #REQUIRED
 >
 <!ATTLIST facture

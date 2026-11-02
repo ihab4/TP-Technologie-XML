@@ -14,30 +14,24 @@
             <body>
                <h1>LISTES DES CLIETS DE IAM</h1>
                 <xsl:for-each select="operateur/client">
-                    <ul>
+    
                         <li>CODE : <xsl:value-of select="@code"/></li>
                         <li>NOM : <xsl:value-of select="@nom"/></li>
+                        <h4>Liste des Abonnement</h4>
+                        <table border="1" width="90%">
+                        <tr>
+                            <th>NUMERO</th><th>TYPE</th><th>DATE</th><th>TOTAL FACTURES</th>
+                        </tr>
                         <xsl:for-each select="abonnement">
-                            <li>NUMERO : <xsl:value-of select="@num"/></li>
-                            <li>TYPE : <xsl:value-of select="@type"/></li>
-                            <li>DATE : <xsl:value-of select="@dateAb"/></li>
-                            <table border="1" width="90%">
                             <tr>
-                                <th>numero facture</th><th>date facture</th><th>montant</th>
-                            </tr>
-                            <xsl:for-each select="facture">
-                                
-                                    
-                                    <tr>
-                                        <td><xsl:value-of select="@numFact"/></td>
-                                        <td><xsl:value-of select="@dateFact"/></td>
-                                        <td><xsl:value-of select="@montant"/></td>
-                                    </tr>
-                            </xsl:for-each>  
-                            </table>
+                                <td><xsl:value-of select="@num"/></td>
+                                <td><xsl:value-of select="@type"/></td>
+                                <td><xsl:value-of select="@dateAb"/></td>
+                                <td><xsl:value-of select="sum(facture/@montant)"/></td>
+                            </tr>   
                         </xsl:for-each>
-                        
-                    </ul>
+                        </table>
+
                 </xsl:for-each>
             </body>
         </html>
