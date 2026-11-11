@@ -1,8 +1,8 @@
-\# Rapport Mandat
+# Rapport Mandat
 
 
 
-\## 1 - L'arbre XML
+## 1 - L'arbre XML
 
 
 
@@ -10,41 +10,41 @@
 
 rapport
 
-└── mandat
+└──+ mandat
 
-&#x20;   ├── expediteur
+   ├── expediteur
 
-&#x20;   │   ├── cin
+   │   ├── cin
 
-&#x20;   │   ├── nom
+   │   ├── nom
 
-&#x20;   │   ├── prenom
+   │   ├── prenom
 
-&#x20;   │   └── ville
+   │   └── ville
 
-&#x20;   ├── destinataire
+   ├── destinataire
 
-&#x20;   │   ├── cin
+   │   ├── cin
 
-&#x20;   │   ├── nom
+   │   ├── nom
 
-&#x20;   │   ├── prenom
+   │   ├── prenom
 
-&#x20;   │   └── ville
+   │   └── ville
 
-&#x20;   ├── num
+   ├── num
 
-&#x20;   ├── date
+   ├── date
 
-&#x20;   ├── montant
+   ├── montant
 
-&#x20;   └── etat
+   └── etat
 
 ```
 
 
 
-\## 2 - Capture d'écran du HTML
+## 2 - Capture d'écran du HTML
 
 
 
