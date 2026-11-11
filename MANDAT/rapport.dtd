@@ -1,0 +1,20 @@
+<!ELEMENT rapport (mandat+) >
+<!ELEMENT mandat (expediteur,destinataire) >
+<!ELEMENT expediteur EMPTY >
+<!ELEMENT destinataire EMPTY >
+
+<!ATTLIST mandat
+                num CDATA #REQUIRED
+                date CDATA #REQUIRED
+                montant CDATA #REQUIRED
+                etat (reçu|non_reçu) 'non_reçu'>
+<!ATTLIST expediteur
+                cin CDATA #REQUIRED
+                nom CDATA #REQUIRED
+                prenom CDATA #REQUIRED
+                ville CDATA #REQUIRED>
+<!ATTLIST destinataire
+                cin CDATA #REQUIRED
+                nom CDATA #REQUIRED
+                prenom CDATA #REQUIRED
+                ville CDATA #REQUIRED>
