@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce repository est dédié aux travaux pratiques du module **Technologie XML**, réalisés dans le cadre du master **II-BDCC** (Ingénierie Informatique : Big Data et Cloud Computing).
+Ce repository est dédié aux travaux pratiques du module **Technologie XML et Web Services**, réalisés dans le cadre du master **II-BDCC** (Ingénierie Informatique : Big Data et Cloud Computing).
 
 Le module est encadré par le professeur **Mohamed Youssfi**, coordinateur du master.
 
