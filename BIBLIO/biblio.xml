@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "biblio.dtd">
+<biblio>
+    <etudiant code="E1" nom="jon" prenom="snow" age="25">
+        <livre id="1" titre="ice and fire" dateEmprunt="2026-10-28" rendu="oui"/>
+        <livre id="2" titre="java" dateEmprunt="2026-05-12"/>
+    </etudiant>
+    <etudiant code="E2" nom="stark" prenom="arya" age="18">
+        <livre id="1" titre="ice and fire" dateEmprunt="2024-02-01"/>
+        <livre id="6" titre="a man must die" dateEmprunt="2020-10-10"/>
+    </etudiant>
+</biblio>
