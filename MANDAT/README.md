@@ -1,60 +1,52 @@
 \# Rapport Mandat
 
+
+
 \## 1 - L'arbre XML
 
-\--rapport
 
-|
 
-|---+ mandat
+```
 
-|	|
+rapport
 
-|	|---expediteur
+└── mandat
 
-|	|	|-cin
+&#x20;   ├── expediteur
 
-|	|	|-nom
+&#x20;   │   ├── cin
 
-|	|	|-prenom
+&#x20;   │   ├── nom
 
-|	|	|-ville
+&#x20;   │   ├── prenom
 
-|	|
+&#x20;   │   └── ville
 
-|	|---destinataire
+&#x20;   ├── destinataire
 
-|	|	|-cin
+&#x20;   │   ├── cin
 
-|	|	|-nom
+&#x20;   │   ├── nom
 
-|	|	|-prenom
+&#x20;   │   ├── prenom
 
-|	|	|-ville
+&#x20;   │   └── ville
 
-|
+&#x20;   ├── num
 
-|-num
+&#x20;   ├── date
 
-|-date
+&#x20;   ├── montant
 
-|-montant
+&#x20;   └── etat
 
-|-etat
+```
 
 
 
-\## 2- Capture d'ecran de HTML
-
-<img src="image/img.png"/>	
+\## 2 - Capture d'écran du HTML
 
 
 
-
-
-
-
-
-
-
+<img src="image/img.png" alt="Capture d'écran de la page HTML" />
 
