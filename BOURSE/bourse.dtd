@@ -7,7 +7,7 @@
 <!ELEMENT cotation EMPTY >
 
 <!ATTLIST societe 
-                type CDATA #REQUIRED>
+                type (banque|assurance) "banque">
 <!ATTLIST cotation 
                 num CDATA #REQUIRED
                 dateCotation CDATA #REQUIRED
