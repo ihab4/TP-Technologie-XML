@@ -30,7 +30,7 @@
             <xsd:element name="standings" type="STANDINGS"></xsd:element>
             <xsd:element name="matches" type="MATCHES"></xsd:element>
         </xsd:sequence>
-        <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="name" type="GROUP_LETTER" use="required"></xsd:attribute>
     </xsd:complexType>
     <xsd:complexType name="STANDINGS">
         <xsd:sequence>
@@ -46,14 +46,7 @@
             <xsd:element name="goalsFor" type="xsd:int"></xsd:element>
             <xsd:element name="goalsAgainst" type="xsd:int"></xsd:element>
             <xsd:element name="goalDifference" type="xsd:int"></xsd:element>
-            <xsd:element name="points">
-                <xsd:simpleType>
-                    <xsd:restriction base="xsd:int">
-                        <xsd:minInclusive value="0"></xsd:minInclusive>
-                        <xsd:maxInclusive value="9"></xsd:maxInclusive>
-                    </xsd:restriction>
-                </xsd:simpleType>
-            </xsd:element>
+            <xsd:element name="points" type="POINTS"></xsd:element>
         </xsd:sequence>
         <xsd:attribute name="team" type="xsd:string" use="required"></xsd:attribute>
         <xsd:attribute name="position" type="xsd:int" use="required"></xsd:attribute>
@@ -84,10 +77,22 @@
     </xsd:complexType>
     <xsd:complexType name="ENTRY_THIRD">
         <xsd:attribute name="team" type="xsd:string" use="required"></xsd:attribute>
-        <xsd:attribute name="group" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="group" type="GROUP_LETTER" use="required"></xsd:attribute>
         <xsd:attribute name="position" type="xsd:int" use="required"></xsd:attribute>
         <xsd:attribute name="played" type="xsd:int" fixed="3"></xsd:attribute>
         <xsd:attribute name="goalDifference" type="xsd:int" use="required"></xsd:attribute>   
-        <xsd:attribute name="points" type="xsd:int" use="required"></xsd:attribute>
+        <xsd:attribute name="points" type="POINTS" use="required"></xsd:attribute>
     </xsd:complexType>
+    
+    <!-- SIMPLE TYPES -->
+    <xsd:simpleType name="POINTS">
+        <xsd:restriction base="xsd:nonNegativeInteger">
+            <xsd:maxInclusive value="9"></xsd:maxInclusive>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="GROUP_LETTER">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-L]"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
 </xsd:schema>
