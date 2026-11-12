@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="worldcup">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="teams" type="TEAMS"></xsd:element>
+                <xsd:element name="groups" type="GROUPS"></xsd:element>
+                <xsd:element name="thirdPlaceRanking" type="THIRDPLACERANKING"></xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="year" type="xsd:int" use="required" fixed="2026"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="TEAMS">
+        <xsd:sequence>
+            <xsd:element name="team" maxOccurs="unbounded" type="TEAM"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="TEAM" mixed="true">
+        <xsd:attribute name="id" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="GROUPS">
+        <xsd:sequence>
+            <xsd:element name="group" maxOccurs="unbounded" type="GROUP"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    
+    <xsd:complexType name="GROUP">
+        <xsd:sequence>
+            <xsd:element name="standings" type="STANDINGS"></xsd:element>
+            <xsd:element name="matches" type="MATCHES"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="STANDINGS">
+        <xsd:sequence>
+            <xsd:element name="entry" minOccurs="4" maxOccurs="4" type="ENTRY"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ENTRY">
+        <xsd:sequence>
+            <xsd:element name="played" type="xsd:int"></xsd:element>
+            <xsd:element name="won" type="xsd:int"></xsd:element>
+            <xsd:element name="drawn" type="xsd:int"></xsd:element>
+            <xsd:element name="lost" type="xsd:int"></xsd:element>
+            <xsd:element name="goalsFor" type="xsd:int"></xsd:element>
+            <xsd:element name="goalsAgainst" type="xsd:int"></xsd:element>
+            <xsd:element name="goalDifference" type="xsd:int"></xsd:element>
+            <xsd:element name="points">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:int">
+                        <xsd:minInclusive value="0"></xsd:minInclusive>
+                        <xsd:maxInclusive value="9"></xsd:maxInclusive>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="team" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="position" type="xsd:int" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="MATCHES">
+        <xsd:sequence>
+            <xsd:element name="match" minOccurs="6" maxOccurs="6" type="MATCH"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="MATCH">
+        <xsd:sequence>
+            <xsd:element name="home" type="HOME_AWAY"></xsd:element>
+            <xsd:element name="away" type="HOME_AWAY"></xsd:element>
+            <xsd:element name="venue" type="VENUE"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="date" type="xsd:date" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="HOME_AWAY" mixed="true">
+        <xsd:attribute name="team" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="VENUE" mixed="true">
+        <xsd:attribute name="city" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:complexType name="THIRDPLACERANKING">
+        <xsd:sequence>
+            <xsd:element name="entry" minOccurs="12" maxOccurs="12" type="ENTRY_THIRD"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ENTRY_THIRD">
+        <xsd:attribute name="team" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="group" type="xsd:string" use="required"></xsd:attribute>
+        <xsd:attribute name="position" type="xsd:int" use="required"></xsd:attribute>
+        <xsd:attribute name="played" type="xsd:int" fixed="3"></xsd:attribute>
+        <xsd:attribute name="goalDifference" type="xsd:int" use="required"></xsd:attribute>   
+        <xsd:attribute name="points" type="xsd:int" use="required"></xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>

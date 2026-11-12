@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worldcup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="worldcup.xsd" year="2026">
+    <teams>
+        <team id="t_algeria">Algeria</team>
+        <team id="t_argentina">Argentina</team>
+        <team id="t_australia">Australia</team>
+        <team id="t_austria">Austria</team>
+        <team id="t_belgium">Belgium</team>
+        <team id="t_bosnia_and_herzegovina">Bosnia and Herzegovina</team>
+        <team id="t_brazil">Brazil</team>
+        <team id="t_canada">Canada</team>
+        <team id="t_cape_verde">Cape Verde</team>
+        <team id="t_colombia">Colombia</team>
+        <team id="t_croatia">Croatia</team>
+        <team id="t_curacao">Curaçao</team>
+        <team id="t_czech_republic">Czech Republic</team>
+        <team id="t_dr_congo">DR Congo</team>
+        <team id="t_ecuador">Ecuador</team>
+        <team id="t_egypt">Egypt</team>
+        <team id="t_england">England</team>
+        <team id="t_france">France</team>
+        <team id="t_germany">Germany</team>
+        <team id="t_ghana">Ghana</team>
+        <team id="t_haiti">Haiti</team>
+        <team id="t_iran">Iran</team>
+        <team id="t_iraq">Iraq</team>
+        <team id="t_ivory_coast">Ivory Coast</team>
+        <team id="t_japan">Japan</team>
+        <team id="t_jordan">Jordan</team>
+        <team id="t_mexico">Mexico</team>
+        <team id="t_morocco">Morocco</team>
+        <team id="t_netherlands">Netherlands</team>
+        <team id="t_new_zealand">New Zealand</team>
+        <team id="t_norway">Norway</team>
+        <team id="t_panama">Panama</team>
+        <team id="t_paraguay">Paraguay</team>
+        <team id="t_portugal">Portugal</team>
+        <team id="t_qatar">Qatar</team>
+        <team id="t_saudi_arabia">Saudi Arabia</team>
+        <team id="t_scotland">Scotland</team>
+        <team id="t_senegal">Senegal</team>
+        <team id="t_south_africa">South Africa</team>
+        <team id="t_south_korea">South Korea</team>
+        <team id="t_spain">Spain</team>
+        <team id="t_sweden">Sweden</team>
+        <team id="t_switzerland">Switzerland</team>
+        <team id="t_tunisia">Tunisia</team>
+        <team id="t_turkey">Turkey</team>
+        <team id="t_united_states">United States</team>
+        <team id="t_uruguay">Uruguay</team>
+        <team id="t_uzbekistan">Uzbekistan</team>
+    </teams>
+    <groups>
+        <group name="A">
+          <standings>
+            <entry team="t_mexico" position="1">
+              <played>3</played>
+              <won>3</won>
+              <drawn>0</drawn>
+              <lost>0</lost>
+              <goalsFor>6</goalsFor>
+              <goalsAgainst>0</goalsAgainst>
+              <goalDifference>6</goalDifference>
+              <points>9</points>
+            </entry>
+            <entry team="t_south_africa" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>-1</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_south_korea" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>0</drawn>
+              <lost>2</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>-1</goalDifference>
+              <points>3</points>
+            </entry>
+            <entry team="t_czech_republic" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>1</drawn>
+              <lost>2</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>6</goalsAgainst>
+              <goalDifference>-4</goalDifference>
+              <points>1</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-11">
+              <home team="t_mexico">2</home>
+              <away team="t_south_africa">0</away>
+              <venue city="Mexico City">Estadio Azteca</venue>
+            </match>
+            <match date="2026-06-11">
+              <home team="t_south_korea">2</home>
+              <away team="t_czech_republic">1</away>
+              <venue city="Zapopan">Estadio Akron</venue>
+            </match>
+            <match date="2026-06-18">
+              <home team="t_czech_republic">1</home>
+              <away team="t_south_africa">1</away>
+              <venue city="Atlanta">Mercedes-Benz Stadium</venue>
+            </match>
+            <match date="2026-06-18">
+              <home team="t_mexico">1</home>
+              <away team="t_south_korea">0</away>
+              <venue city="Zapopan">Estadio Akron</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_czech_republic">0</home>
+              <away team="t_mexico">3</away>
+              <venue city="Mexico City">Estadio Azteca</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_south_africa">1</home>
+              <away team="t_south_korea">0</away>
+              <venue city="Guadalupe">Estadio BBVA</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="B">
+          <standings>
+            <entry team="t_switzerland" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>7</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>4</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_canada" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>8</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>5</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_bosnia_and_herzegovina" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>5</goalsFor>
+              <goalsAgainst>6</goalsAgainst>
+              <goalDifference>-1</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_qatar" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>1</drawn>
+              <lost>2</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>10</goalsAgainst>
+              <goalDifference>-8</goalDifference>
+              <points>1</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-12">
+              <home team="t_canada">1</home>
+              <away team="t_bosnia_and_herzegovina">1</away>
+              <venue city="Toronto">BMO Field</venue>
+            </match>
+            <match date="2026-06-13">
+              <home team="t_qatar">1</home>
+              <away team="t_switzerland">1</away>
+              <venue city="Santa Clara">Levi's Stadium</venue>
+            </match>
+            <match date="2026-06-18">
+              <home team="t_switzerland">4</home>
+              <away team="t_bosnia_and_herzegovina">1</away>
+              <venue city="Inglewood">SoFi Stadium</venue>
+            </match>
+            <match date="2026-06-18">
+              <home team="t_canada">6</home>
+              <away team="t_qatar">0</away>
+              <venue city="Vancouver">BC Place</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_switzerland">2</home>
+              <away team="t_canada">1</away>
+              <venue city="Vancouver">BC Place</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_bosnia_and_herzegovina">3</home>
+              <away team="t_qatar">1</away>
+              <venue city="Seattle">Lumen Field</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="C">
+          <standings>
+            <entry team="t_brazil" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>7</goalsFor>
+              <goalsAgainst>1</goalsAgainst>
+              <goalDifference>6</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_morocco" position="2">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>6</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>3</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_scotland" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>0</drawn>
+              <lost>2</lost>
+              <goalsFor>1</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>-3</goalDifference>
+              <points>3</points>
+            </entry>
+            <entry team="t_haiti" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>0</drawn>
+              <lost>3</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>8</goalsAgainst>
+              <goalDifference>-6</goalDifference>
+              <points>0</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-13">
+              <home team="t_brazil">1</home>
+              <away team="t_morocco">1</away>
+              <venue city="East Rutherford">MetLife Stadium</venue>
+            </match>
+            <match date="2026-06-13">
+              <home team="t_haiti">0</home>
+              <away team="t_scotland">1</away>
+              <venue city="Foxborough">Gillette Stadium</venue>
+            </match>
+            <match date="2026-06-19">
+              <home team="t_scotland">0</home>
+              <away team="t_morocco">1</away>
+              <venue city="Foxborough">Gillette Stadium</venue>
+            </match>
+            <match date="2026-06-19">
+              <home team="t_brazil">3</home>
+              <away team="t_haiti">0</away>
+              <venue city="Philadelphia">Lincoln Financial Field</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_scotland">0</home>
+              <away team="t_brazil">3</away>
+              <venue city="Miami Gardens">Hard Rock Stadium</venue>
+            </match>
+            <match date="2026-06-24">
+              <home team="t_morocco">4</home>
+              <away team="t_haiti">2</away>
+              <venue city="Atlanta">Mercedes-Benz Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="D">
+          <standings>
+            <entry team="t_united_states" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>0</drawn>
+              <lost>1</lost>
+              <goalsFor>8</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>4</goalDifference>
+              <points>6</points>
+            </entry>
+            <entry team="t_australia" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_paraguay" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>-2</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_turkey" position="4">
+              <played>3</played>
+              <won>1</won>
+              <drawn>0</drawn>
+              <lost>2</lost>
+              <goalsFor>3</goalsFor>
+              <goalsAgainst>5</goalsAgainst>
+              <goalDifference>-2</goalDifference>
+              <points>3</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-12">
+              <home team="t_united_states">4</home>
+              <away team="t_paraguay">1</away>
+              <venue city="Inglewood">SoFi Stadium</venue>
+            </match>
+            <match date="2026-06-13">
+              <home team="t_australia">2</home>
+              <away team="t_turkey">0</away>
+              <venue city="Vancouver">BC Place</venue>
+            </match>
+            <match date="2026-06-19">
+              <home team="t_united_states">2</home>
+              <away team="t_australia">0</away>
+              <venue city="Seattle">Lumen Field</venue>
+            </match>
+            <match date="2026-06-19">
+              <home team="t_turkey">0</home>
+              <away team="t_paraguay">1</away>
+              <venue city="Santa Clara">Levi's Stadium</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_turkey">3</home>
+              <away team="t_united_states">2</away>
+              <venue city="Inglewood">SoFi Stadium</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_paraguay">0</home>
+              <away team="t_australia">0</away>
+              <venue city="Santa Clara">Levi's Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="E">
+          <standings>
+            <entry team="t_germany" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>0</drawn>
+              <lost>1</lost>
+              <goalsFor>10</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>6</goalDifference>
+              <points>6</points>
+            </entry>
+            <entry team="t_ivory_coast" position="2">
+              <played>3</played>
+              <won>2</won>
+              <drawn>0</drawn>
+              <lost>1</lost>
+              <goalsFor>4</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>2</goalDifference>
+              <points>6</points>
+            </entry>
+            <entry team="t_ecuador" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_curacao" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>1</drawn>
+              <lost>2</lost>
+              <goalsFor>1</goalsFor>
+              <goalsAgainst>9</goalsAgainst>
+              <goalDifference>-8</goalDifference>
+              <points>1</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-14">
+              <home team="t_germany">7</home>
+              <away team="t_curacao">1</away>
+              <venue city="Houston">NRG Stadium</venue>
+            </match>
+            <match date="2026-06-14">
+              <home team="t_ivory_coast">1</home>
+              <away team="t_ecuador">0</away>
+              <venue city="Philadelphia">Lincoln Financial Field</venue>
+            </match>
+            <match date="2026-06-20">
+              <home team="t_germany">2</home>
+              <away team="t_ivory_coast">1</away>
+              <venue city="Toronto">BMO Field</venue>
+            </match>
+            <match date="2026-06-20">
+              <home team="t_ecuador">0</home>
+              <away team="t_curacao">0</away>
+              <venue city="Kansas City">Arrowhead Stadium</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_curacao">0</home>
+              <away team="t_ivory_coast">2</away>
+              <venue city="Philadelphia">Lincoln Financial Field</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_ecuador">2</home>
+              <away team="t_germany">1</away>
+              <venue city="East Rutherford">MetLife Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="F">
+          <standings>
+            <entry team="t_netherlands" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>10</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>6</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_japan" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>2</drawn>
+              <lost>0</lost>
+              <goalsFor>7</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>4</goalDifference>
+              <points>5</points>
+            </entry>
+            <entry team="t_sweden" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>7</goalsFor>
+              <goalsAgainst>7</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_tunisia" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>0</drawn>
+              <lost>3</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>12</goalsAgainst>
+              <goalDifference>-10</goalDifference>
+              <points>0</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-14">
+              <home team="t_netherlands">2</home>
+              <away team="t_japan">2</away>
+              <venue city="Arlington">AT&amp;T Stadium</venue>
+            </match>
+            <match date="2026-06-14">
+              <home team="t_sweden">5</home>
+              <away team="t_tunisia">1</away>
+              <venue city="Guadalupe">Estadio BBVA</venue>
+            </match>
+            <match date="2026-06-20">
+              <home team="t_netherlands">5</home>
+              <away team="t_sweden">1</away>
+              <venue city="Houston">NRG Stadium</venue>
+            </match>
+            <match date="2026-06-20">
+              <home team="t_tunisia">0</home>
+              <away team="t_japan">4</away>
+              <venue city="Guadalupe">Estadio BBVA</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_japan">1</home>
+              <away team="t_sweden">1</away>
+              <venue city="Arlington">AT&amp;T Stadium</venue>
+            </match>
+            <match date="2026-06-25">
+              <home team="t_tunisia">1</home>
+              <away team="t_netherlands">3</away>
+              <venue city="Kansas City">Arrowhead Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="G">
+          <standings>
+            <entry team="t_belgium" position="1">
+              <played>3</played>
+              <won>1</won>
+              <drawn>2</drawn>
+              <lost>0</lost>
+              <goalsFor>6</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>4</goalDifference>
+              <points>5</points>
+            </entry>
+            <entry team="t_egypt" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>2</drawn>
+              <lost>0</lost>
+              <goalsFor>5</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>2</goalDifference>
+              <points>5</points>
+            </entry>
+            <entry team="t_iran" position="3">
+              <played>3</played>
+              <won>0</won>
+              <drawn>3</drawn>
+              <lost>0</lost>
+              <goalsFor>3</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>3</points>
+            </entry>
+            <entry team="t_new_zealand" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>1</drawn>
+              <lost>2</lost>
+              <goalsFor>4</goalsFor>
+              <goalsAgainst>10</goalsAgainst>
+              <goalDifference>-6</goalDifference>
+              <points>1</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-15">
+              <home team="t_belgium">1</home>
+              <away team="t_egypt">1</away>
+              <venue city="Seattle">Lumen Field</venue>
+            </match>
+            <match date="2026-06-15">
+              <home team="t_iran">2</home>
+              <away team="t_new_zealand">2</away>
+              <venue city="Inglewood">SoFi Stadium</venue>
+            </match>
+            <match date="2026-06-21">
+              <home team="t_belgium">0</home>
+              <away team="t_iran">0</away>
+              <venue city="Inglewood">SoFi Stadium</venue>
+            </match>
+            <match date="2026-06-21">
+              <home team="t_new_zealand">1</home>
+              <away team="t_egypt">3</away>
+              <venue city="Vancouver">BC Place</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_egypt">1</home>
+              <away team="t_iran">1</away>
+              <venue city="Seattle">Lumen Field</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_new_zealand">1</home>
+              <away team="t_belgium">5</away>
+              <venue city="Vancouver">BC Place</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="H">
+          <standings>
+            <entry team="t_spain" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>5</goalsFor>
+              <goalsAgainst>0</goalsAgainst>
+              <goalDifference>5</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_cape_verde" position="2">
+              <played>3</played>
+              <won>0</won>
+              <drawn>3</drawn>
+              <lost>0</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>3</points>
+            </entry>
+            <entry team="t_uruguay" position="3">
+              <played>3</played>
+              <won>0</won>
+              <drawn>2</drawn>
+              <lost>1</lost>
+              <goalsFor>3</goalsFor>
+              <goalsAgainst>4</goalsAgainst>
+              <goalDifference>-1</goalDifference>
+              <points>2</points>
+            </entry>
+            <entry team="t_saudi_arabia" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>2</drawn>
+              <lost>1</lost>
+              <goalsFor>1</goalsFor>
+              <goalsAgainst>5</goalsAgainst>
+              <goalDifference>-4</goalDifference>
+              <points>2</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-15">
+              <home team="t_spain">0</home>
+              <away team="t_cape_verde">0</away>
+              <venue city="Atlanta">Mercedes-Benz Stadium</venue>
+            </match>
+            <match date="2026-06-15">
+              <home team="t_saudi_arabia">1</home>
+              <away team="t_uruguay">1</away>
+              <venue city="Miami Gardens">Hard Rock Stadium</venue>
+            </match>
+            <match date="2026-06-21">
+              <home team="t_spain">4</home>
+              <away team="t_saudi_arabia">0</away>
+              <venue city="Atlanta">Mercedes-Benz Stadium</venue>
+            </match>
+            <match date="2026-06-21">
+              <home team="t_uruguay">2</home>
+              <away team="t_cape_verde">2</away>
+              <venue city="Miami Gardens">Hard Rock Stadium</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_cape_verde">0</home>
+              <away team="t_saudi_arabia">0</away>
+              <venue city="Houston">NRG Stadium</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_uruguay">0</home>
+              <away team="t_spain">1</away>
+              <venue city="Zapopan">Estadio Akron</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="I">
+          <standings>
+            <entry team="t_france" position="1">
+              <played>3</played>
+              <won>3</won>
+              <drawn>0</drawn>
+              <lost>0</lost>
+              <goalsFor>10</goalsFor>
+              <goalsAgainst>2</goalsAgainst>
+              <goalDifference>8</goalDifference>
+              <points>9</points>
+            </entry>
+            <entry team="t_norway" position="2">
+              <played>3</played>
+              <won>2</won>
+              <drawn>0</drawn>
+              <lost>1</lost>
+              <goalsFor>8</goalsFor>
+              <goalsAgainst>7</goalsAgainst>
+              <goalDifference>1</goalDifference>
+              <points>6</points>
+            </entry>
+            <entry team="t_senegal" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>0</drawn>
+              <lost>2</lost>
+              <goalsFor>8</goalsFor>
+              <goalsAgainst>6</goalsAgainst>
+              <goalDifference>2</goalDifference>
+              <points>3</points>
+            </entry>
+            <entry team="t_iraq" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>0</drawn>
+              <lost>3</lost>
+              <goalsFor>1</goalsFor>
+              <goalsAgainst>12</goalsAgainst>
+              <goalDifference>-11</goalDifference>
+              <points>0</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-16">
+              <home team="t_france">3</home>
+              <away team="t_senegal">1</away>
+              <venue city="East Rutherford">MetLife Stadium</venue>
+            </match>
+            <match date="2026-06-16">
+              <home team="t_iraq">1</home>
+              <away team="t_norway">4</away>
+              <venue city="Foxborough">Gillette Stadium</venue>
+            </match>
+            <match date="2026-06-22">
+              <home team="t_france">3</home>
+              <away team="t_iraq">0</away>
+              <venue city="Philadelphia">Lincoln Financial Field</venue>
+            </match>
+            <match date="2026-06-22">
+              <home team="t_norway">3</home>
+              <away team="t_senegal">2</away>
+              <venue city="East Rutherford">MetLife Stadium</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_norway">1</home>
+              <away team="t_france">4</away>
+              <venue city="Foxborough">Gillette Stadium</venue>
+            </match>
+            <match date="2026-06-26">
+              <home team="t_senegal">5</home>
+              <away team="t_iraq">0</away>
+              <venue city="Toronto">BMO Field</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="J">
+          <standings>
+            <entry team="t_argentina" position="1">
+              <played>3</played>
+              <won>3</won>
+              <drawn>0</drawn>
+              <lost>0</lost>
+              <goalsFor>8</goalsFor>
+              <goalsAgainst>1</goalsAgainst>
+              <goalDifference>7</goalDifference>
+              <points>9</points>
+            </entry>
+            <entry team="t_austria" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>6</goalsFor>
+              <goalsAgainst>6</goalsAgainst>
+              <goalDifference>0</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_algeria" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>5</goalsFor>
+              <goalsAgainst>7</goalsAgainst>
+              <goalDifference>-2</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_jordan" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>0</drawn>
+              <lost>3</lost>
+              <goalsFor>3</goalsFor>
+              <goalsAgainst>8</goalsAgainst>
+              <goalDifference>-5</goalDifference>
+              <points>0</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-16">
+              <home team="t_argentina">3</home>
+              <away team="t_algeria">0</away>
+              <venue city="Kansas City">Arrowhead Stadium</venue>
+            </match>
+            <match date="2026-06-16">
+              <home team="t_austria">3</home>
+              <away team="t_jordan">1</away>
+              <venue city="Santa Clara">Levi's Stadium</venue>
+            </match>
+            <match date="2026-06-22">
+              <home team="t_argentina">2</home>
+              <away team="t_austria">0</away>
+              <venue city="Arlington">AT&amp;T Stadium</venue>
+            </match>
+            <match date="2026-06-22">
+              <home team="t_jordan">1</home>
+              <away team="t_algeria">2</away>
+              <venue city="Santa Clara">Levi's Stadium</venue>
+            </match>
+            <match date="2026-06-27">
+              <home team="t_algeria">3</home>
+              <away team="t_austria">3</away>
+              <venue city="Kansas City">Arrowhead Stadium</venue>
+            </match>
+            <match date="2026-06-27">
+              <home team="t_jordan">1</home>
+              <away team="t_argentina">3</away>
+              <venue city="Arlington">AT&amp;T Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="K">
+          <standings>
+            <entry team="t_colombia" position="1">
+              <played>3</played>
+              <won>2</won>
+              <drawn>1</drawn>
+              <lost>0</lost>
+              <goalsFor>4</goalsFor>
+              <goalsAgainst>1</goalsAgainst>
+              <goalDifference>3</goalDifference>
+              <points>7</points>
+            </entry>
+            <entry team="t_portugal" position="2">
+              <played>3</played>
+              <won>1</won>
+              <drawn>2</drawn>
+              <lost>0</lost>
+              <goalsFor>6</goalsFor>
+              <goalsAgainst>1</goalsAgainst>
+              <goalDifference>5</goalDifference>
+              <points>5</points>
+            </entry>
+            <entry team="t_dr_congo" position="3">
+              <played>3</played>
+              <won>1</won>
+              <drawn>1</drawn>
+              <lost>1</lost>
+              <goalsFor>4</goalsFor>
+              <goalsAgainst>3</goalsAgainst>
+              <goalDifference>1</goalDifference>
+              <points>4</points>
+            </entry>
+            <entry team="t_uzbekistan" position="4">
+              <played>3</played>
+              <won>0</won>
+              <drawn>0</drawn>
+              <lost>3</lost>
+              <goalsFor>2</goalsFor>
+              <goalsAgainst>11</goalsAgainst>
+              <goalDifference>-9</goalDifference>
+              <points>0</points>
+            </entry>
+          </standings>
+          <matches>
+            <match date="2026-06-17">
+              <home team="t_portugal">1</home>
+              <away team="t_dr_congo">1</away>
+              <venue city="Houston">NRG Stadium</venue>
+            </match>
+            <match date="2026-06-17">
+              <home team="t_uzbekistan">1</home>
+              <away team="t_colombia">3</away>
+              <venue city="Mexico City">Estadio Azteca</venue>
+            </match>
+            <match date="2026-06-23">
+              <home team="t_portugal">5</home>
+              <away team="t_uzbekistan">0</away>
+              <venue city="Houston">NRG Stadium</venue>
+            </match>
+            <match date="2026-06-23">
+              <home team="t_colombia">1</home>
+              <away team="t_dr_congo">0</away>
+              <venue city="Zapopan">Estadio Akron</venue>
+            </match>
+            <match date="2026-06-27">
+              <home team="t_colombia">0</home>
+              <away team="t_portugal">0</away>
+              <venue city="Miami Gardens">Hard Rock Stadium</venue>
+            </match>
+            <match date="2026-06-27">
+              <home team="t_dr_congo">3</home>
+              <away team="t_uzbekistan">1</away>
+              <venue city="Atlanta">Mercedes-Benz Stadium</venue>
+            </match>
+          </matches>
+        </group>
+        <group name="L">
+      <standings>
+        <entry team="t_england" position="1">
+          <played>3</played>
+          <won>2</won>
+          <drawn>1</drawn>
+          <lost>0</lost>
+          <goalsFor>6</goalsFor>
+          <goalsAgainst>2</goalsAgainst>
+          <goalDifference>4</goalDifference>
+          <points>7</points>
+        </entry>
+        <entry team="t_croatia" position="2">
+          <played>3</played>
+          <won>2</won>
+          <drawn>0</drawn>
+          <lost>1</lost>
+          <goalsFor>5</goalsFor>
+          <goalsAgainst>5</goalsAgainst>
+          <goalDifference>0</goalDifference>
+          <points>6</points>
+        </entry>
+        <entry team="t_ghana" position="3">
+          <played>3</played>
+          <won>1</won>
+          <drawn>1</drawn>
+          <lost>1</lost>
+          <goalsFor>2</goalsFor>
+          <goalsAgainst>2</goalsAgainst>
+          <goalDifference>0</goalDifference>
+          <points>4</points>
+        </entry>
+        <entry team="t_panama" position="4">
+          <played>3</played>
+          <won>0</won>
+          <drawn>0</drawn>
+          <lost>3</lost>
+          <goalsFor>0</goalsFor>
+          <goalsAgainst>4</goalsAgainst>
+          <goalDifference>-4</goalDifference>
+          <points>0</points>
+        </entry>
+      </standings>
+      <matches>
+        <match date="2026-06-17">
+          <home team="t_england">4</home>
+          <away team="t_croatia">2</away>
+          <venue city="Arlington">AT&amp;T Stadium</venue>
+        </match>
+        <match date="2026-06-17">
+          <home team="t_ghana">1</home>
+          <away team="t_panama">0</away>
+          <venue city="Toronto">BMO Field</venue>
+        </match>
+        <match date="2026-06-23">
+          <home team="t_england">0</home>
+          <away team="t_ghana">0</away>
+          <venue city="Foxborough">Gillette Stadium</venue>
+        </match>
+        <match date="2026-06-23">
+          <home team="t_panama">0</home>
+          <away team="t_croatia">1</away>
+          <venue city="Toronto">BMO Field</venue>
+        </match>
+        <match date="2026-06-27">
+          <home team="t_panama">0</home>
+          <away team="t_england">2</away>
+          <venue city="East Rutherford">MetLife Stadium</venue>
+        </match>
+        <match date="2026-06-27">
+          <home team="t_croatia">2</home>
+          <away team="t_ghana">1</away>
+          <venue city="Philadelphia">Lincoln Financial Field</venue>
+        </match>
+      </matches>
+    </group>
+    </groups>
+    <thirdPlaceRanking>
+      <entry team="t_dr_congo" group="K" position="1" played="3" goalDifference="1" points="4"/>
+      <entry team="t_sweden" group="F" position="2" played="3" goalDifference="0" points="4"/>
+      <entry team="t_ghana" group="L" position="3" played="3" goalDifference="0" points="4"/>
+      <entry team="t_ecuador" group="E" position="4" played="3" goalDifference="0" points="4"/>
+      <entry team="t_bosnia_and_herzegovina" group="B" position="5" played="3" goalDifference="-1" points="4"/>
+      <entry team="t_algeria" group="J" position="6" played="3" goalDifference="-2" points="4"/>
+      <entry team="t_paraguay" group="D" position="7" played="3" goalDifference="-2" points="4"/>
+      <entry team="t_senegal" group="I" position="8" played="3" goalDifference="2" points="3"/>
+      <entry team="t_iran" group="G" position="9" played="3" goalDifference="0" points="3"/>
+      <entry team="t_south_korea" group="A" position="10" played="3" goalDifference="-1" points="3"/>
+      <entry team="t_scotland" group="C" position="11" played="3" goalDifference="-3" points="3"/>
+      <entry team="t_uruguay" group="H" position="12" played="3" goalDifference="-1" points="2"/>
+    </thirdPlaceRanking>
+</worldcup>
