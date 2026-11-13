@@ -6,7 +6,8 @@ Voici l'arbre XML :
 
 <img src="img.jpg"/>
 
-
+Capture d'écran
+<img src="capture.png"/>
 
 
 
