@@ -6,7 +6,12 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
             <line x1="100" y1="100" x2="100" y2="600" stroke="blue" stroke-width="2"></line>
             <line x1="100" y1="600" x2="1000" y2="600" stroke="blue" stroke-width="2"></line>
-            <line x1="50" y1="550" x2="150" y2="550" stroke="red" stroke-width="2"></line>
+            <line x1="90" y1="500" x2="110" y2="500" stroke="red" stroke-width="2"></line>
+            <text x="70" y="505" stroke="red">10</text>
+            <line x1="90" y1="400" x2="110" y2="400" stroke="red" stroke-width="2"></line>
+            <text x="70" y="405" stroke="red">20</text>
+            <line x1="90" y1="300" x2="110" y2="300" stroke="red" stroke-width="2"></line>
+            <text x="70" y="305" stroke="red">30</text>
             <xsl:for-each select="meteo/mesure[@date='2026-10-29']/ville">
                 <xsl:variable name="pos" select="position()*120"/>
                 <xsl:variable name="temp" select="@temperature*10"/>
