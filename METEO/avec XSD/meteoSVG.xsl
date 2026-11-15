@@ -14,6 +14,7 @@
                 </text>
                 <rect width="20" height="{$temp}" x="{$pos}" y="{600-$temp}"
                     stroke="blue" fill="orange">
+                    <!--
                     <animate attributeName="height" dur="3s"
                         values="0;{$temp};0"
                         repeatCount="indefinite"                
@@ -22,6 +23,7 @@
                         values="600;{600-$temp};600"
                         repeatCount="indefinite"
                         ></animate>
+                        -->
                 </rect>
                 <text stroke="black" x="{$pos}" y="600-{$temp}-10">
                     <xsl:value-of select="@temperature"/>
