@@ -28,9 +28,24 @@
                         <xsl:for-each select="standings/entry">
                             <tr>
                                 <td><xsl:value-of select="replace(@team,'^t_','')"/></td>
+                                <td><xsl:value-of select="won/data()"/></td>
+                                <td><xsl:value-of select="drawn/data()"/></td>
+                                <td><xsl:value-of select="lost/data()"/></td>
+                                <td><xsl:value-of select="goalsFor/data()"/></td>
+                                <td><xsl:value-of select="goalsAgainst/data()"/></td>
+                                <td><xsl:value-of select="goalDifference/data()"/></td>
+                                <td><xsl:value-of select="points/data()"/></td>
                             </tr>
                         </xsl:for-each>
                     </table>
+                    <h5>LES MATCHES</h5>
+                    
+                    <ul>
+                        
+                        <xsl:for-each select="matches/match">
+                            <li><xsl:value-of select="home/replace(@team,'^t_','')"/> : <xsl:value-of select="home/data()"/> - <xsl:value-of select="away/data()"/> : <xsl:value-of select="away/replace(@team,'^t_','')"/></li>
+                        </xsl:for-each>
+                    </ul>
                 </xsl:for-each>
             </body>
         </html>
